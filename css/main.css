@@ -1,0 +1,146 @@
+h1, h2, h3, h4, h5, h6 {
+	color:#464646;
+  font-family: helvetica;
+}
+
+.first-feature{
+  display: block;
+  width: 30%;
+  height: 30%;
+  margin: auto;
+}
+
+.feature-image {
+    display: block;
+    width: 350px;
+    height: 200px;
+    margin: auto;
+  }
+
+.column-one-quarter h1{
+  text-align: center;
+  margin-top: 2%;
+  border-bottom-style: outset;
+}
+
+.column-one-quarter h5{
+  text-align: center;
+  font-weight: lighter;
+}
+
+.vertical-wrapper{
+  float: left;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  margin: 0;
+}
+
+.welcome{
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 5%;
+}
+
+/*.welcome h1 {
+    margin-top: -30px;
+    font-family: sans serif;
+  }*/
+
+.welcome h1{
+  margin-top:0px;
+	margin-bottom:50px;
+	font-size:90px;
+	line-height: 50px;
+	font-weight: 900;
+	text-transform: lowercase;
+	letter-spacing: 10px;
+  font-weight: lighter;
+  font-weight: bold;
+}
+/*
+.welcome h1 {
+margin-top: -30px;
+font-family: "Lato", sans serif;
+font-size: 900;
+}*/
+
+.welcome h2
+{
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 35px;
+	margin-top:0px;
+	margin-bottom:50px;
+  margin-left: 70px;
+  margin-right: 70px;
+	letter-spacing: 1px;
+}
+
+.button,.button.large
+{
+width:300px;
+font-size: 17px;
+font-weight: bold;
+padding: 11px 30px 11px;
+background:  #732626;
+color: #ffffff;
+line-height: 20px;
+letter-spacing: 1px;
+text-shadow: none;
+text-transform: uppercase;
+vertical-align: middle;
+cursor: pointer;
+border: none;
+border-radius: 3px;
+box-shadow: none;
+
+}
+
+.button:hover, .button.inverse:hover
+{
+	background:  #323A40;
+}
+
+.button.inverse{
+  background-color: #666666;
+}
+
+
+
+.button.center,.button.middle
+{
+	text-align:center;
+	display:inherit;
+	margin:0 auto;
+}
+
+/*.wrapper h2{
+  text-align: center;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: auto;
+  margin-bottom: -100px;
+  background-color:  #cccccc;
+}*/
+
+body {
+    padding: 0;
+    font-family: helvetica, arial, sans-serif;
+  
+}
+
+#container1{
+	background: #F5F5F5;
+	color: #444;
+	background-size: cover;
+}
+
+#container2{
+	background: #E5E5E5;
+	color: #444;
+	background-size: cover;
+}
+/* =================
+Add more styles here!
+================= */
